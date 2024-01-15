@@ -3,7 +3,6 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-awesome.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,21 +15,16 @@
                 <i class="fa fa-refresh"></i>
             </div>
             <div id="date">
-                <span>Monday, Jun 12:45 </span>
+                <span></span>
             </div>
         </div>
         <div class="content">
-            <ul class="list">
-                <li class="items">
-                    <i class="fa fa-circle-thin"></i>
+            <ul id="list">
+               
+                <li class="item">
+                    <i class="fa fa-circle-thin co" action="complete"></i>
                     <p>Fajr Prayer</p>
-                    <i class="fa fa-trash"></i>
-                    <i class="fa fa-edit"></i>
-                </li>
-                <li class="items">
-                    <i class="fa fa-circle-thin"></i>
-                    <p>Fajr Prayer</p>
-                    <i class="fa fa-trash"></i>
+                    <i class="fa fa-trash de" action="delete"></i>
                     <i class="fa fa-edit"></i>
                 </li>
             </ul>
@@ -41,5 +35,6 @@
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

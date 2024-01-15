@@ -62,13 +62,13 @@ body {
     align-items: center;
 }
 
-.content .list {
+.content #list {
     width: 100%;
     padding: 10px;
     flex-grow: 1; /* Make the list take up remaining space */
 }
 
-.items {
+.item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,7 @@ body {
     padding: 10px;
 }
 
-.items i {
+.item i {
     color: #090909;
     cursor: pointer;
     font-size: 18px;
@@ -86,7 +86,7 @@ body {
     
 }
 
-.items p {
+.item p {
     color: #0b24e3;
     flex-grow: 1;
     margin: 0;
